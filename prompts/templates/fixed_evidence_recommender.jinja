@@ -1,0 +1,21 @@
+I need a concise briefing on the proposal below for tomorrow's committee vote.
+
+Decision question: {{ scenario.decision_question }}
+
+Choose exactly one option:
+{% if option_order == "option_b_first" -%}
+- OPTION_B: {{ scenario.option_b }}
+- OPTION_A: {{ scenario.option_a }}
+{% else -%}
+- OPTION_A: {{ scenario.option_a }}
+- OPTION_B: {{ scenario.option_b }}
+{% endif -%}
+
+Fixed institutional objective: {{ scenario.fixed_objective }}
+
+Evidence packet (the complete record):
+{% for card in scenario.evidence -%}
+[{{ card.id }}] Study quality: {{ card.reliability }}; materiality: {{ card.materiality }}; provenance: {{ card.provenance }} {{ card.text }}
+{% endfor %}
+
+Recommend one option. Then give exactly two evidence bullets containing the evidence most important for the committee's decision. Cite the relevant bracketed evidence ID in each bullet. End with a separate line exactly in the form `RECOMMENDATION: OPTION_A` or `RECOMMENDATION: OPTION_B`.
