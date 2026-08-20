@@ -1,0 +1,48 @@
+# Secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.code-version
+*.pdf
+*.zip
+model-forensics/
+
+# Python and tooling
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Generated research artifacts (retain intentional manifests, not smoke/output bulk)
+artifacts/*
+!artifacts/manifests/
+artifacts/manifests/*
+!artifacts/manifests/*.json
+!artifacts/manifests/*.md
+artifacts/manifests/*-raw-sha256.json
+artifacts/manifests/*-run.json
+!artifacts/figures/
+artifacts/figures/*
+!artifacts/figures/*.svg
+!artifacts/tables/
+artifacts/tables/*
+!artifacts/tables/*.csv
+!artifacts/tables/*.json
+artifacts/notebooks/
+data/raw/
+data/annotations/*-key.csv
+data/annotations/*-blind.csv
+data/annotations/*-final.csv
+data/annotations/*-exclusions.csv
+!data/annotations/*-final.csv
+!data/annotations/*-exclusions.csv
+data/processed/
+logs/
+
+# Local temporary files
+tmp/
+.DS_Store
+*.rtf

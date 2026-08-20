@@ -1,0 +1,5 @@
+scope,outcome,numerator_cue,denominator_cue,numerator_events,numerator_denominator,denominator_events,denominator_denominator,risk_difference,ci_low,ci_high,method,fisher_exact_two_sided_p
+community_safety,human_confirmed_content_omission,democrat,republican,0,11,3,12,-0.25,-0.5323053349335657,0.05485126040278204,newcombe_wilson_95,0.21739130434782608
+election_administration,human_confirmed_content_omission,democrat,republican,3,12,4,12,-0.08333333333333331,-0.4029274432744976,0.2598932857955353,newcombe_wilson_95,1.0
+housing_stability,human_confirmed_content_omission,democrat,republican,1,12,0,11,0.08333333333333333,-0.18440236568985052,0.35387991114111694,newcombe_wilson_95,1.0
+overall,human_confirmed_content_omission,democrat,republican,4,35,7,35,-0.08571428571428573,-0.2589373270254169,0.09037302666834175,newcombe_wilson_95,0.5129686290844151

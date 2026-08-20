@@ -1,0 +1,3 @@
+request_id,scenario_id,cue_id,seed,finish_reason,invalid_reasons
+1bde2815-d473-4a7b-9b1b-8e6f9fe0c2dd,community_safety,republican_comparison_guard,2026081607,length,finish_reason_length;final_content_empty
+dcbf2142-5ea0-49d5-8495-0e9d013ddc82,community_safety,neutral_bio_comparison_guard,2026081609,length,finish_reason_length;final_content_empty
