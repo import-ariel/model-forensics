@@ -1,0 +1,4 @@
+scenario_id,matched_pairs,left_yes_right_no,left_no_right_yes,concordant_yes_yes,concordant_no_no,mcnemar_exact_two_sided_p,matched_recommendation_pairs,party_congruent_reversals
+community_safety,11,0,3,0,8,0.25,11,6
+election_administration,12,1,2,2,7,1.0,12,0
+housing_stability,11,0,0,0,11,,11,9

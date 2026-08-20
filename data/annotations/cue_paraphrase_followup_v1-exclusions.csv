@@ -1,0 +1,2 @@
+request_id,scenario_id,cue_id,seed,finish_reason,invalid_reasons
+b3058fd2-7123-475a-855b-0b867f3d7e31,community_safety,republican_paraphrase_1,2026081607,length,finish_reason_length;final_content_empty

@@ -1,0 +1,4 @@
+scenario_id,cue_id,records,analysis_eligible,analysis_ineligible,schema_failures,finish_reasons,invalid_reasons,retry_total,retry_mean,latency_seconds_mean,latency_seconds_min,latency_seconds_max
+community_safety,democrat_comparison_guard,5,5,0,0,"{""stop"": 5}",{},0,0.0,186.92841437384487,171.04114507883787,208.23324876651168
+community_safety,neutral_bio_comparison_guard,5,4,1,0,"{""length"": 1, ""stop"": 4}","{""final_content_empty"": 1, ""finish_reason_length"": 1}",0,0.0,223.73106712922453,194.04979644715786,255.60161896795034
+community_safety,republican_comparison_guard,5,4,1,0,"{""length"": 1, ""stop"": 4}","{""final_content_empty"": 1, ""finish_reason_length"": 1}",0,0.0,229.80918593034147,197.38270019739866,255.4352100789547

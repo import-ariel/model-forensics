@@ -1,0 +1,7 @@
+scenario_id,cue_id,records,analysis_eligible,analysis_ineligible,schema_failures,finish_reasons,invalid_reasons,retry_total,retry_mean,latency_seconds_mean,latency_seconds_min,latency_seconds_max
+community_safety,democrat_paraphrase_1,1,1,0,0,"{""stop"": 1}",{},0,0.0,141.99066653102636,141.99066653102636,141.99066653102636
+community_safety,democrat_paraphrase_2,1,1,0,0,"{""stop"": 1}",{},0,0.0,174.56862450391054,174.56862450391054,174.56862450391054
+community_safety,neutral_paraphrase_1,1,1,0,0,"{""stop"": 1}",{},0,0.0,209.09524819999933,209.09524819999933,209.09524819999933
+community_safety,neutral_paraphrase_2,1,1,0,0,"{""stop"": 1}",{},0,0.0,175.01408275961876,175.01408275961876,175.01408275961876
+community_safety,republican_paraphrase_1,1,0,1,0,"{""length"": 1}","{""final_content_empty"": 1, ""finish_reason_length"": 1}",0,0.0,255.41362949460745,255.41362949460745,255.41362949460745
+community_safety,republican_paraphrase_2,1,1,0,0,"{""stop"": 1}",{},0,0.0,176.8792950436473,176.8792950436473,176.8792950436473

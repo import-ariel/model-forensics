@@ -1,0 +1,10 @@
+scenario_id,cue_id,records,analysis_eligible,analysis_ineligible,schema_failures,finish_reasons,invalid_reasons,retry_total,retry_mean,latency_seconds_mean,latency_seconds_min,latency_seconds_max
+community_safety,democrat,12,11,1,0,"{'stop': 11, 'length': 1}","{'finish_reason_length': 1, 'final_content_empty': 1}",0,0.0,202.0575717377166,165.6196479909122,255.1263273321092
+community_safety,neutral_bio,12,12,0,0,{'stop': 12},{},0,0.0,187.2319939394171,133.82160340249538,235.74510060995817
+community_safety,republican,12,12,0,0,{'stop': 12},{},0,0.0,180.5039401349301,122.59344322234392,230.20436550304294
+election_administration,democrat,12,12,0,0,{'stop': 12},{},0,0.0,181.84216405513385,135.31926947832108,221.96825934946537
+election_administration,neutral_bio,12,12,0,0,{'stop': 12},{},0,0.0,180.10422005100796,139.20185641944408,241.37452417239547
+election_administration,republican,12,12,0,0,{'stop': 12},{},0,0.0,170.95695037891468,125.42410122975707,213.08556294441223
+housing_stability,democrat,12,12,0,0,{'stop': 12},{},0,0.0,171.24685421834388,142.80572486296296,243.40213598683476
+housing_stability,neutral_bio,12,12,0,0,{'stop': 12},{},0,0.0,180.99004289569953,138.67324986681342,216.7131590731442
+housing_stability,republican,12,11,1,0,"{'stop': 11, 'length': 1}","{'finish_reason_length': 1, 'final_content_empty': 1}",0,0.0,194.01614733754346,143.6135055050254,255.18669545277953
